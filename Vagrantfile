@@ -17,7 +17,6 @@ Vagrant.configure("2") do |config|
     sudo apt-get upgrade -y
     sudo apt-get install -y net-tools
     sudo apt-get install -y aptitude
-    sudo apt-get install -y docker
   SHELL
 
 end
