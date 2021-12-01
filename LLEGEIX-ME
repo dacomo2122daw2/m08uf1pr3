@@ -26,11 +26,17 @@
 		config.vm.hostname = "xxyyzz"
 	NOTA: xxyyzz són les 2 primeres lletres del teu nom, 1r cognom i 2n cognom
 
-3. Inicia la màquina virtual amb les ordres de `Vagrant`:
+
+3. Aprovisiona dockers:
+
+	3.1 Obre Vagrantfile amb nano, geany, qualsevol IDE o qualsevol editor de texte pla.
+	3.2 Afegeix sudo apt-get install docker a la secció config.vm.provision 
+
+4. Inicia la màquina virtual amb les ordres de `Vagrant`:
 
 	vagrant up
 
 
-4. Accedeix a la màquina virtual per SSH, per poder realitzar el curs:
+5. Accedeix a la màquina virtual per SSH, per poder realitzar el curs:
 
 	vagrant ssh
